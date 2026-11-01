@@ -1,0 +1,3 @@
+Déposez ici vos captures d'écran de projets (PNG ou JPG, 1600 px de large maximum) :
+  active-directory.png, packet-tracer.png, glpi.png
+Puis décommentez le bloc <figure class="shot"> correspondant dans index.html.
