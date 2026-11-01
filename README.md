@@ -1,62 +1,35 @@
-# Portfolio · Boutheina Megharzi
+Portfolio · Boutheina Megharzi
 
-Site one-page statique (HTML, CSS, JavaScript sans dépendance) pour la recherche d'un stage de 3 mois en TSSR.
+Je me forme au métier de Technicienne Supérieure Systèmes & Réseaux chez Studi et je recherche un stage de 3 mois, disponible immédiatement, à Lyon et en périphérie, sur site ou en hybride.
 
-## Arborescence
+Voir le portfolio en ligne : https://boutheina-megharzi.github.io/
 
-```
-index.html                  tout le contenu du site (8 sections)
-css/style.css               toute la mise en forme (couleurs en haut du fichier)
-js/main.js                  menu mobile, section active + CONFIG (lien de rendez-vous)
-assets/docs/                le CV en PDF (bouton « Télécharger mon CV »)
-assets/img/                 photo, favicon, captures de projets
-.nojekyll, robots.txt       fichiers utiles pour GitHub Pages
-```
+Ce que vous découvrirez sur le site
+Mon parcours : pourquoi je me suis reconvertie dans l'informatique et ce que je viens apprendre en stage.
+Mes atouts : les réflexes que j'ai acquis au contact des utilisateurs, prouvés par des chiffres réels.
+Mes compétences : chaque compétence affiche mon niveau réel, de « Je pratique » à « Prévu ».
+Mes projets : les laboratoires que je construis, je configure et je documente.
+Ma méthode : la démarche que j'applique face à un incident.
+Mon CV, à télécharger en un clic.
+Mes laboratoires
+Labo	Statut	Dépôt
+Réseau d'une PME à deux sites · Cisco Packet Tracer	Réalisé	Voir le dépôt
+Active Directory · Windows Server	Réalisé	Voir le dépôt
+Helpdesk GLPI	En cours	Voir le dépôt
+Comment j'ai construit ce site
 
-## Voir le site sur votre ordinateur
+J'ai choisi un site simple, rapide et facile à maintenir : une seule page en HTML, CSS et JavaScript, sans aucune dépendance, publiée gratuitement avec GitHub Pages. Le site s'adapte aux ordinateurs, aux tablettes et aux téléphones, et respecte les préférences d'accessibilité de chaque visiteur.
 
-Double-cliquez sur `index.html` : il s'ouvre dans votre navigateur.
-Pour un rendu identique à la mise en ligne, depuis le dossier du projet :
+Me contacter
+E-mail : Megharzi.Boutheina@outlook.fr
+LinkedIn : boutheina-megharzi-systemes-reseaux
+Mes notes pour faire évoluer le site
+Pour…	Je modifie…
+Changer un texte	index.html (chaque section commence par un commentaire ====)
+Remplacer mon CV	assets/docs/CV-Boutheina-Megharzi.pdf, en gardant exactement le même nom
+Ajouter une capture d'un labo	je dépose l'image dans assets/img/projets/, puis je décommente le bloc <figure class="shot">
+Passer un labo en « Réalisé »	le statut de sa carte et de sa fiche dans index.html
+Ajouter un lien de prise de rendez-vous	la ligne bookingUrl: "" dans js/main.js
+Changer une couleur	les variables en haut de css/style.css
 
-```
-python -m http.server 8000
-```
-
-puis ouvrez http://localhost:8000
-
-## Mettre en ligne sur GitHub Pages (gratuit)
-
-1. Sur GitHub, créez un dépôt public nommé **`Boutheina-Megharzi.github.io`**
-   (exactement votre nom d'utilisateur suivi de `.github.io`).
-2. Bouton **Add file › Upload files** : glissez **le contenu** du dossier `portfolio`
-   (index.html, css, js, assets, .nojekyll, robots.txt), puis **Commit changes**.
-3. Onglet **Settings › Pages** : Source = *Deploy from a branch*, Branch = `main`, dossier `/ (root)`, **Save**.
-4. Après une à deux minutes, le site est en ligne à l'adresse
-   **https://boutheina-megharzi.github.io/**
-5. Ajoutez ce lien sur votre CV, votre profil LinkedIn (section « Coordonnées » et « Sélection ») et dans vos candidatures.
-
-Alternative : glisser le dossier sur https://app.netlify.com/drop (en ligne immédiatement).
-
-## Modifier le contenu
-
-| Je veux…                                   | Où                                                        |
-|--------------------------------------------|-----------------------------------------------------------|
-| Ajouter un lien Calendly / Cal.com         | `js/main.js`, ligne `bookingUrl: ""`                       |
-| Remplacer le CV                            | écraser `assets/docs/CV-Boutheina-Megharzi.pdf` (même nom) |
-| Changer un texte                           | `index.html`, chaque section est repérée par un commentaire `====` |
-| Compléter une fiche projet                 | `index.html`, blocs `<!-- À COMPLÉTER … -->` dans la section Projets |
-| Ajouter une capture d'écran                | déposer l'image dans `assets/img/projets/`, décommenter le bloc `<figure class="shot">` |
-| Changer une couleur                        | `css/style.css`, variables en haut du fichier             |
-| Passer un labo de « en cours » à « terminé » | `index.html`, texte `En cours de réalisation` de la fiche |
-
-## À compléter
-
-- [ ] Lien de prise de rendez-vous (Calendly, Cal.com…) dans `js/main.js`, facultatif
-- [ ] Pour chaque labo : difficulté rencontrée et solution, résultat obtenu, une capture d'écran
-- [ ] Vérifier que les 3 dépôts GitHub sont publics et ont un README
-- [ ] Après mise en ligne : mettre l'adresse réelle dans la balise `<link rel="canonical">` de `index.html`
-- [ ] Retirer de la section « Prochains labos envisagés » ceux que vous ne comptez pas faire
-
-Indicateurs à ajouter quand les labos avancent (dans la section Impact) :
-nombre de VM déployées, de comptes et groupes créés, de tickets traités dans GLPI, d'incidents simulés et résolus.
-Ne publiez un chiffre que s'il est vérifiable dans vos dépôts.
+Pour voir le site sur mon ordinateur, je double-clique sur index.html. Après chaque envoi sur GitHub, je vérifie la coche verte dans l'onglet Actions, puis je recharge le site avec Ctrl + F5.
