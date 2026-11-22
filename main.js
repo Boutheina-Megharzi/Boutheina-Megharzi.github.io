@@ -154,4 +154,33 @@ const CONFIG = {
   }
 
 })();
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("main section, section");
+  if (!sections.length) return;
+
+  // Active l'état caché uniquement si IntersectionObserver est disponible
+  if (!("IntersectionObserver" in window)) {
+    sections.forEach((sec) => sec.classList.add("is-visible"));
+    return;
+  }
+
+  sections.forEach((sec) => sec.classList.add("reveal-ready"));
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.12,
+      rootMargin: "0px 0px -40px 0px",
+    }
+  );
+
+  sections.forEach((sec) => observer.observe(sec));
+});
 
