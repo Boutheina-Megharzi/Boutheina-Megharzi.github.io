@@ -1201,22 +1201,22 @@ footer {
 }
 /* Animation douce de tout le portfolio (descente et remontée) */
 .scroll-reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
+  opacity: 0 !important;
+  transform: translateY(24px) !important;
+  transition: opacity 0.65s ease, transform 0.65s ease !important;
   will-change: opacity, transform;
 }
 
 .scroll-reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .scroll-reveal,
   .scroll-reveal.is-visible {
-    opacity: 1;
-    transform: none;
-    transition: none;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }

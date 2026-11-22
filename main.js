@@ -155,9 +155,22 @@ const CONFIG = {
 
 })();
 document.addEventListener("DOMContentLoaded", () => {
-  const cibles = document.querySelectorAll(
-    "main > section, section > div, article, .card, .encart, .box, .fiche, .affiche-ad-box"
+  const selecteur = [
+    "main > section",
+    "article",
+    "aside",
+    "[class*='card']",
+    "[class*='encart']",
+    "[class*='box']",
+    "[class*='fiche']",
+    ".affiche-ad-box"
+  ].join(", ");
+
+  // Évite d'animer un élément déjà contenu dans un autre élément animé
+  const cibles = Array.from(document.querySelectorAll(selecteur)).filter(
+    (el) => !el.parentElement || !el.parentElement.closest(".scroll-reveal")
   );
+
   if (!cibles.length) return;
 
   if (!("IntersectionObserver" in window)) {
@@ -178,11 +191,10 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     },
     {
-      threshold: 0.1,
-      rootMargin: "0px 0px -30px 0px",
+      threshold: 0.08,
+      rootMargin: "0px 0px -20px 0px",
     }
   );
 
   cibles.forEach((el) => observer.observe(el));
 });
-
