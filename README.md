@@ -1,38 +1,45 @@
 # Portfolio · Boutheina Megharzi
 
-Je me forme au métier de **Technicienne Supérieure Systèmes & Réseaux** chez Studi et je recherche un **stage de 3 mois**, disponible immédiatement, à Lyon et en périphérie, sur site ou en hybride.
+Je me forme au métier de **Technicienne Supérieure Systèmes & Réseaux** chez Studi.
+Je recherche un **stage de 3 mois**, disponible immédiatement, à **Lyon et en périphérie**, sur site ou en hybride.
 
-**Voir le portfolio en ligne : https://boutheina-megharzi.github.io/**
+👉 **Voir le portfolio en ligne : [boutheina-megharzi.github.io](https://boutheina-megharzi.github.io/)**
 
-## Ce que vous découvrirez sur le site
+---
 
-- **Mon parcours** : pourquoi je me suis reconvertie dans l'informatique et ce que je viens apprendre en stage.
-- **Mes atouts** : les réflexes que j'ai acquis au contact des utilisateurs, prouvés par des chiffres réels.
-- **Mes compétences** : chaque compétence affiche mon niveau réel, de « Je pratique » à « Prévu ».
-- **Mes projets** : les laboratoires que je construis, je configure et je documente.
-- **Ma méthode** : ma façon d'apprendre : je transforme chaque notion de cours en compétence pratique, en suivant toujours les mêmes étapes.
+## Ce que vous trouverez sur le site
+
+- **Mon parcours** : pourquoi je me suis reconvertie dans l'informatique, et ce que je viens apprendre en stage.
+- **Mes atouts** : les réflexes acquis au contact des utilisateurs, avec des chiffres réels.
+- **Mes compétences** : pour chacune, mon niveau réel, de « Je pratique » à « Prévu ».
+- **Mes projets** : les laboratoires que je construis, configure et documente.
+- **Ma méthode** : comment je transforme chaque notion de cours en compétence pratique, toujours en suivant les mêmes étapes.
 - **Mon CV**, à télécharger en un clic.
 
 ## Mes laboratoires
 
-| Labo | Statut | Dépôt |
-|---|---|---|
-| Réseau d'une PME à deux sites · Cisco Packet Tracer | Réalisé | [Voir le dépôt](https://github.com/Boutheina-Megharzi/-tssr-lab-reseau-pme-deux-sites) |
-| Active Directory · Windows Server | Réalisé | [Voir le dépôt](https://github.com/Boutheina-Megharzi/tssr-lab-active-directory) |
-| Helpdesk GLPI | En cours | [Voir le dépôt](https://github.com/Boutheina-Megharzi/tssr-lab-glpi-helpdesk) |
+| Labo | Outils | Statut | Dépôt |
+|---|---|---|---|
+| Réseau d'une PME à deux sites | Cisco Packet Tracer | ✅ Réalisé | [Voir le dépôt](https://github.com/Boutheina-Megharzi/tssr-lab-reseau-pme-deux-sites) |
+| Annuaire d'entreprise | Windows Server · Active Directory | ✅ Réalisé | [Voir le dépôt](https://github.com/Boutheina-Megharzi/tssr-lab-active-directory) |
+| Helpdesk | GLPI | 🔄 En cours | [Voir le dépôt](https://github.com/Boutheina-Megharzi/tssr-lab-glpi-helpdesk) |
 
 ## Comment j'ai construit ce site
 
-J'ai choisi un site simple, rapide et facile à maintenir : une seule page en HTML, CSS et JavaScript, sans aucune dépendance, publiée gratuitement avec GitHub Pages. Le site s'adapte aux ordinateurs, aux tablettes et aux téléphones, et respecte les préférences d'accessibilité de chaque visiteur.
+J'ai voulu un site simple, rapide et facile à entretenir : une seule page en HTML, CSS et JavaScript, sans aucune dépendance, publiée gratuitement avec GitHub Pages.
+Il s'adapte aux ordinateurs, aux tablettes et aux téléphones, et respecte les préférences d'accessibilité de chaque visiteur.
 
 ## Me contacter
 
-- E-mail : Megharzi.Boutheina@outlook.fr
-- LinkedIn : [boutheina-megharzi-systemes-reseaux](https://www.linkedin.com/in/boutheina-megharzi-systemes-reseaux)
+- **E-mail** : [Megharzi.Boutheina@outlook.fr](mailto:Megharzi.Boutheina@outlook.fr)
+- **LinkedIn** : [boutheina-megharzi-systemes-reseaux](https://www.linkedin.com/in/boutheina-megharzi-systemes-reseaux)
 
 ---
 
-### Mes notes pour faire évoluer le site
+<details>
+<summary><strong>Mes notes pour faire évoluer le site</strong></summary>
+
+<br>
 
 | Pour… | Je modifie… |
 |---|---|
@@ -43,4 +50,8 @@ J'ai choisi un site simple, rapide et facile à maintenir : une seule page en HT
 | Ajouter un lien de prise de rendez-vous | la ligne `bookingUrl: ""` dans `js/main.js` |
 | Changer une couleur | les variables en haut de `css/style.css` |
 
-Pour voir le site sur mon ordinateur, je double-clique sur `index.html`. Après chaque envoi sur GitHub, je vérifie la coche verte dans l'onglet **Actions**, puis je recharge le site avec **Ctrl + F5**.
+**Voir le site sur mon ordinateur** : je double-clique sur `index.html`.
+
+**Après chaque envoi sur GitHub** : je vérifie la coche verte dans l'onglet **Actions**, puis je recharge le site avec **Ctrl + F5**.
+
+</details>
