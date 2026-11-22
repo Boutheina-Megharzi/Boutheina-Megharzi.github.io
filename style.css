@@ -1199,20 +1199,22 @@ footer {
   background: #f7f9fb !important;
   background-color: #f7f9fb !important;
 }
-/* Apparition douce des sections au défilement */
-section.reveal-ready {
+/* Animation douce de tout le portfolio (descente et remontée) */
+.scroll-reveal {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(24px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+  will-change: opacity, transform;
 }
 
-section.reveal-ready.is-visible {
+.scroll-reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  section.reveal-ready {
+  .scroll-reveal,
+  .scroll-reveal.is-visible {
     opacity: 1;
     transform: none;
     transition: none;
