@@ -47,8 +47,8 @@ Il s'adapte aux ordinateurs, aux tablettes et aux téléphones, et respecte les 
 | Remplacer mon CV | `assets/docs/CV-Boutheina-Megharzi.pdf`, en gardant exactement le même nom |
 | Ajouter une capture d'un labo | je dépose l'image dans `assets/img/projets/`, puis je décommente le bloc `<figure class="shot">` |
 | Passer un labo en « Réalisé » | le statut de sa carte et de sa fiche dans `index.html` |
-| Ajouter un lien de prise de rendez-vous | la ligne `bookingUrl: ""` dans `js/main.js` |
-| Changer une couleur | les variables en haut de `css/style.css` |
+| Ajouter un lien de prise de rendez-vous | la ligne `bookingUrl: ""` dans `main.js` |
+| Changer une couleur | les variables en haut de `style.css` |
 
 **Voir le site sur mon ordinateur** : je double-clique sur `index.html`.
 
