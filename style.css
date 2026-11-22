@@ -1220,3 +1220,17 @@ footer {
     transition: none !important;
   }
 }
+/* Arrière-plan technique à points discrets sur toute la page */
+body {
+  background-color: #f7f9fb;
+  background-image: radial-gradient(rgba(13, 27, 36, 0.16) 1.25px, transparent 1.25px);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* Masque d'éventuels motifs "+" ou pseudo-éléments décoratifs sur le fond */
+body::before,
+body::after {
+  content: none !important;
+  background: none !important;
+}
