@@ -1357,35 +1357,3 @@ html::before {
     display: none;
   }
 }
-/* Auras lumineuses claires + grille de points en arrière-plan */
-html,
-body {
-  background: transparent !important;
-}
-
-html::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-color: #eef4f8;
-  background-image:
-    radial-gradient(circle at 12% 20%, rgba(139, 92, 246, 0.22) 0%, transparent 45%),
-    radial-gradient(circle at 86% 18%, rgba(56, 189, 248, 0.22) 0%, transparent 46%),
-    radial-gradient(circle at 72% 82%, rgba(11, 116, 112, 0.20) 0%, transparent 48%),
-    radial-gradient(rgba(27, 36, 48, 0.22) 1.5px, transparent 1.5px);
-  background-size:
-    100% 100%,
-    100% 100%,
-    100% 100%,
-    24px 24px;
-}
-
-.section {
-  background-color: transparent !important;
-}
-
-.section--tint {
-  background-color: rgba(214, 229, 232, 0.55) !important;
-}
