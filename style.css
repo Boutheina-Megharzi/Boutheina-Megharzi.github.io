@@ -1234,3 +1234,20 @@ body::after {
   content: none !important;
   background: none !important;
 }
+html,
+body {
+  background-color: #f7f9fb !important;
+  background-image: radial-gradient(rgba(13, 27, 36, 0.16) 1.25px, transparent 1.25px) !important;
+  background-size: 22px 22px !important;
+  background-attachment: fixed !important;
+}
+
+body::before,
+body::after,
+section::before,
+section::after,
+main::before,
+main::after {
+  content: none !important;
+  background-image: none !important;
+}
