@@ -10,7 +10,7 @@ Je me forme au métier de **Technicienne Supérieure Systèmes & Réseaux** chez
 - **Mes atouts** : les réflexes que j'ai acquis au contact des utilisateurs, prouvés par des chiffres réels.
 - **Mes compétences** : chaque compétence affiche mon niveau réel, de « Je pratique » à « Prévu ».
 - **Mes projets** : les laboratoires que je construis, je configure et je documente.
-- **Ma méthode** : la démarche que j'applique face à un incident.
+- **Ma méthode** : ma façon d'apprendre : je transforme chaque notion de cours en compétence pratique, en suivant toujours les mêmes étapes.
 - **Mon CV**, à télécharger en un clic.
 
 ## Mes laboratoires
