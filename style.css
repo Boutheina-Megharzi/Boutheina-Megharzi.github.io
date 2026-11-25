@@ -1225,3 +1225,6 @@ main, section, .hero, .section, .section--tint, .contact, .footer,
 .hero::before, .hero::after, #competences::before, #methode::before { content: none; }
 
 @media print { body::after { display: none; } }
+/* Liens vers les attestations dans les pastilles de compétences */
+.skill .skill__kw li a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.skill .skill__kw li a:hover, .skill .skill__kw li a:focus-visible { color: var(--accent); }
